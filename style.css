@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;/*bch yab9a l7jm howa raghm zyeda*/
+}
+body {
+  background-color: #131726;
+  font-family: sans-serif;
+}
+h3{
+  color:white;
+}
+.topnav{
+  overflow: hidden;/*ched blastek*/
+  background-color: #131720;
+  padding: 10px;
+}
+.topnav a {
+  float: left;/*link w search ijo bjnab baadhhom*/
+  display:block;
+  color:white;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  
+}
+
+.topnav .search-container{
+  float: right;
+}
+   
+form{
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;/*vertically*/
+}
+input{
+  all: unset;/*kima bayk*/
+  font: 15px system-ui;
+  color: #fff;/* color of lkhat w klmt search*/
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+.thumbnail{
+  height: 350px;
+  width: 300px;
+  border-radius:19px;
+}
+.coulmn{
+float: left;
+  width: 25%;
+  padding: 10px 10px;
+
+}
+.card{
+  border-radius: 19px;
+  padding: 15px;
+  text-align:center;/*téather aale dheri w ki n7b néthr fi div n7ot display inblock*/
+  background-color:#151f30;
+}
