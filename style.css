@@ -1,68 +1,66 @@
-*{
-  box-sizing: border-box;/*bch yab9a l7jm howa raghm zyeda*/
+* {
+  box-sizing: border-box;
 }
+
 body {
-  background-color: #131726;
+  background-color: #131720;
   font-family: sans-serif;
+  color: white;
 }
-h3{
-  color:white;
-}
-.topnav{
-  overflow: hidden;/*ched blastek*/
+
+.topnav {
+  overflow: hidden;
   background-color: #131720;
   padding: 10px;
 }
-.topnav a {
-  float: left;/*link w search ijo bjnab baadhhom*/
-  display:block;
-  color:white;
-  
+
+.topnav a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
-  
 }
 
 .topnav .search-container{
   float: right;
 }
-   
+
 form{
   background-color: #151f30;
   width: 300px;
   height: 43px;
   border-radius: 11px;
   display: flex;
-  align-items: center;/*vertically*/
+  alight-items: center;
 }
-input{
-  all: unset;/*kima bayk*/
+
+input {
   font: 15px system-ui;
-  color: #fff;/* color of lkhat w klmt search*/
+  color: black;
   height: 100%;
   width: 100%;
   padding: 6px 9px;
 }
-.thumbnail{
+
+.thumbnail {
   height: 350px;
   width: 300px;
-  border-radius:19px;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;/*TAHBT LESTAR KI TAABI LINE*/
+  border-radius: 19px;
 }
 
 .column {
-  flex: 25%;
-  padding: 10px;
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
 }
 
 .card{
   border-radius: 19px;
   padding: 15px;
-  text-align:center;/*téather aale dheri w ki n7b néthr fi div n7ot display inblock*/
-  background-color:#151f30;
+  text-align: center;
+  background-color: #151f30;
 }
